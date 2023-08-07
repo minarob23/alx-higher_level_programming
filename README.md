@@ -93,6 +93,6 @@ Pycodestyle is now the [**new standard of Python style code**](https://github.co
 [**Mina Robir**](https://github.com/minarob23)
 
 ## Acknowledgments :
-- The creators of the C language.
+- The creators of the C language & Python language.
 - Our software engineer-in-residence.
 - Alx-Africa.
