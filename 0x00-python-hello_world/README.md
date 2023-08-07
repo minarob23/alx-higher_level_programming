@@ -99,7 +99,7 @@ Pycodestyle is now the [**new standard of Python style code**](https://github.co
 
 # Resources
 
-Python documentation
-Youtube series
-Pycodestyle guide
-Understanding The Zen of Python
+* Python documentation
+* Youtube series
+* Pycodestyle guide
+* Understanding The Zen of Python
