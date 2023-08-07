@@ -1,5 +1,5 @@
 <h1 align="center">
-  AlX Higher Level Programming
+  ALX Higher Level Programming
 </h1>
 
 <p align="center">
