@@ -77,3 +77,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   * 103-fast_alphabet.py: Python program that prints the alphabet in uppercase, followed by a new line.
   * Without using loops, conditoinals, `str.join()`, string literals, or system calls.
 
+
