@@ -1,13 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 """Defines a Rectangle class.
 
-Private instance attributes:
+Private instance attribute:
     - __width: Width of the rectangle.
     - __height: Height of the rectangle.
 
 Public methods:
     - __init__(self, width=0, height=0): Initializes a rectangle with optional width and height.
-    - area(self): Calculates and returns the area of the rectangle.
 
 Properties:
     - width: Gets or sets the width of the rectangle.
@@ -56,8 +55,4 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
-    def area(self):
-        """Calculates and returns the area of the rectangle."""
-        return self.__width * self.__height
 
