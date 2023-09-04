@@ -19,6 +19,8 @@ Public instance method: def area(self): that returns the rectangle area
 
 Public instance method: def perimeter(self): that returns the rectangle perimeter:
 if width or height is equal to 0, perimeter is equal to 0
+
+Public instance method: def display(self): that prints the rectangle with `#` symbols.
 """
 
 class Rectangle:
@@ -65,4 +67,9 @@ class Rectangle:
 
     def perimeter(self):
         return 2 * (self.__width + self.__height)
+
+    def display(self):
+        """Prints the rectangle using '#' symbols."""
+        for i in range(self.__height):
+            print("#" * self.__width)
 
