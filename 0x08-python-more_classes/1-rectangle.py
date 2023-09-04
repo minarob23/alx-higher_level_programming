@@ -1,17 +1,5 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class.
-
-Private instance attributes:
-    - __width: Width of the rectangle.
-    - __height: Height of the rectangle.
-
-Public methods:
-    - __init__(self, width=0, height=0): Initializes a rectangle with optional width and height.
-
-Properties:
-    - width: Gets or sets the width of the rectangle.
-    - height: Gets or sets the height of the rectangle.
-"""
+"""Defines a Rectangle class """
 
 class Rectangle:
     """Defines a Rectangle class.
