@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Defines a Rectangle class.
 
-Private instance attribute:
+Private instance attributes:
     - __width: Width of the rectangle.
     - __height: Height of the rectangle.
 
