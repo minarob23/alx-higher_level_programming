@@ -21,6 +21,8 @@ Public instance method: def perimeter(self): that returns the rectangle perimete
 if width or height is equal to 0, perimeter is equal to 0
 
 Public instance method: def display(self): that prints the rectangle with `#` symbols.
+
+Public instance method: def __str__(self): that returns a string representation of the rectangle.
 """
 
 class Rectangle:
@@ -72,4 +74,8 @@ class Rectangle:
         """Prints the rectangle using '#' symbols."""
         for i in range(self.__height):
             print("#" * self.__width)
+
+    def __str__(self):
+        """Returns a string representation of the rectangle."""
+        return f"Rectangle({self.__width}, {self.__height})"
 
