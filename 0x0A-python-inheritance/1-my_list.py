@@ -1,17 +1,15 @@
 #!/usr/bin/python3
-class MyList(list):
-    """
-    A custom list class that inherits from the built-in list class.
+"""
+contains the MyList class
+"""
 
-    Public instance methods:
-    - print_sorted(self): Prints the list in ascending sorted order without modifying the original list.
-    
-    Note: Assumes all elements in the list are of type int.
-    """
+
+class MyList(list):
+    """a subclass of list"""
+    def __init__(self):
+        """initializes the object"""
+        super().__init__()
 
     def print_sorted(self):
-        """
-        Prints the list in ascending sorted order without modifying the original list.
-        """
-        sorted_list = sorted(self)
-        print(sorted_list)
+        """prints the sorted list"""
+        print(sorted(self))
